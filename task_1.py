@@ -18,6 +18,7 @@
 
 
 def get_code_points(origin_words):
+
     for word in origin_words:
         code_point_word = ascii(word)
         type_of_variable = type(code_point_word)

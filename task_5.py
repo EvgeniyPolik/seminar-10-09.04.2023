@@ -22,4 +22,3 @@ def get_ping(destination_adresses):
 
 addresses = ['yandex.ru', 'youtube.com']
 get_ping(addresses)
-

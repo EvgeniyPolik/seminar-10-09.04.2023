@@ -16,6 +16,7 @@ def get_byte_format(origin_words):
         byte_format_word = bytes(word, 'UTF-8')
         type_of_variable = type(byte_format_word)
         lenght_word_in_bytes = len(byte_format_word)
+
         try:
             if lenght_word_in_bytes != len(word):
                 raise ValueError
