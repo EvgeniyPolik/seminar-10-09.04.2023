@@ -19,4 +19,5 @@ def get_byte_format(origin_words):
 
 
 words = ['разработка', 'администрирование', 'protocol', 'standard']
+
 get_byte_format(words)
